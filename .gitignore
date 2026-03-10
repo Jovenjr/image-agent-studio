@@ -1,0 +1,38 @@
+# ─── Credenciales ─────────────────────────────────────────────────────────────
+# NUNCA subir el .env real. Usa .env.example como plantilla.
+.env
+
+# ─── Entorno virtual Python ───────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ─── Cache Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# ─── Artefactos de build ──────────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# ─── Output generado (imágenes, previews) ─────────────────────────────────────
+# Solo se conserva el .gitkeep para preservar la carpeta vacía.
+output/*
+!output/.gitkeep
+
+# ─── VS Code – configuración de usuario (NO el mcp.json compartible) ──────────
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
